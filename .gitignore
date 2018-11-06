@@ -1,0 +1,7 @@
+*
+
+!.gitignore
+!*.yaml
+!**/*.yaml
+
+secrets.yaml

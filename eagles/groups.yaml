@@ -1,0 +1,8 @@
+light:
+  - platform: group
+    name: Eagles Lights
+    entities:
+      - light.kitchen
+      - light.accent_lights
+      - light.bedroom
+

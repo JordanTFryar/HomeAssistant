@@ -1,0 +1,79 @@
+#!include: eagles/groups.yaml
+
+#default_view:
+quick_view:
+  name: Quick View
+  view: yes
+  entities:
+     - group.phones
+     - group.living_room_lights
+     - group.kitchen_lights
+     - group.bedroom_lights
+     - group.chromecasts
+
+cameras:
+  name: Cameras
+  entities:
+    - camera.living_room
+    - camera.living_room_2
+
+phones:
+  name: Phones
+  entities:
+    - device_tracker.galaxynote8verizon
+    - device_tracker.galaxynote9
+
+living_room_lights:
+  name: Living Room Lights
+  entities:
+    - light.accent_lights
+    - light.light_strip
+    - light.hue_go_1
+    - light.hue_go_2
+    - light.living_room_lights
+
+kitchen_lights:
+  name: Kitchen Lights
+  entities:
+    - light.kitchen
+    - light.kitchen_1 
+    - light.kitchen_2 
+    - light.kitchen_3 
+    - light.kitchen_4 
+    - light.kitchen_5 
+    - light.kitchen_6 
+    - light.kitchen_7 
+    - light.kitchen_8 
+    - light.kitchen_9 
+    - light.island_1
+    - light.island_2
+
+bedroom_lights:
+  name: Bedroom Lights
+  entities:
+    - light.bedroom
+    - light.bedroom_1
+    - light.bedroom_2
+
+chromecasts:
+  name: Google Cast
+  entities:
+    - media_player.tv
+    - media_player.chromecast
+
+google_cast:
+  name: Google Cast
+  entities:
+    - media_player.whole_house
+    - media_player.google_home 
+    - media_player.chromecast_audio
+    - media_player.kitchen_home 
+    - media_player.bedroom_home 
+    - media_player.bathroom_home 
+
+
+
+
+
+
+

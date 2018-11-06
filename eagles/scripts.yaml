@@ -1,0 +1,88 @@
+eagles_touchdown:
+  alias: Eagles Touchdown
+  sequence:
+    - alias: Touchdown Lights Green
+      service: homeassistant.turn_on
+      entity_id: 
+        - light.light_strip
+      data:
+        brightness: 255
+        rgb_color: [0,255,0]
+        transition: .05
+        #flash: short
+    - condition: state
+      entity_id: input_boolean.eagles_touchdown_mode
+      state: 'on' 
+    - delay:
+        milliseconds: 50
+    - alias: Touchdown Lights White
+      service: homeassistant.turn_on
+      entity_id: 
+        - light.light_strip
+      data:
+        brightness: 255
+        rgb_color: [255,255,255]
+        transition: .05
+        #flash: short
+    - alias: Touchdown Loop
+      service: script.eagles_touchdown_loop
+
+eagles_touchdown_loop:
+  alias: Eagles Touchdown Loop
+  sequence:
+    - delay:
+        milliseconds: 50
+    - alias: Loop
+      service: script.eagles_touchdown
+
+eagles_normal:
+  alias: Normal Eagles Lights
+  sequence:
+    - delay:
+        milliseconds: 3000
+#    - alias: Eagles Normal Lights 
+#      service: homeassistant.turn_on
+#      entity_id:
+#        - light.light_strip
+#      data:
+#        brightness: 255
+#        rgb_color: [0,255,0]
+#        transition: 0
+
+light_flash:
+  alias: Light Flash
+  sequence:
+    - alias: Light Flash
+      service: homeassistant.turn_on
+      entity_id:
+        - light.light_strip
+      data:
+        brightness: 255
+        rgb_color: [255,255,255]
+        #flash: short
+
+select_google_home:
+  alias: Select Google Home
+  sequence:
+    - alias: Select Google Home
+      service: media_player.select_source
+      data:
+        entity_id: mediaplayer.spotify
+        source: "Google Home"
+
+play_music:
+  alias: Play Spotify
+  sequence:
+    - alias: Play Spotify
+      service: media_player.play_media
+      data:
+        entity_id: media_player.spotify
+        media_content_id: 'spotify:user:spotify:playlist:37i9dQZF1DZ06evO35QGgE'
+        media_content_type: playlist
+
+
+
+
+
+
+ 

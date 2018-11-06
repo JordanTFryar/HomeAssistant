@@ -1,0 +1,97 @@
+- id: eagles_touchdown_mqtt_on
+  alias: Eagles Touchdown MQTT On
+#  hide_entity: True
+  initial_state: 'on' 
+  trigger:
+    platform: mqtt
+    topic: homeassistant/eagles/touchdownmode
+    payload: 'On'
+  action:
+    service: input_boolean.turn_on
+    entity_id: input_boolean.eagles_touchdown_mode
+
+- id: eagles_touchdown_mqtt_off
+  alias: Eagles Touchdown MQTT Off
+#  hide_entity: True
+  initial_state: 'on' 
+  trigger:
+    platform: mqtt
+    topic: homeassistant/eagles/touchdownmode
+    payload: 'Off'
+  action:
+    service: input_boolean.turn_off
+    entity_id: input_boolean.eagles_touchdown_mode
+
+- id: button_eagles_touchdown_on
+  alias: Eagles Touchdown On 
+#  hide_entity: True
+  initial_state: 'on' 
+  trigger:
+    platform: state
+    entity_id: input_boolean.eagles_touchdown_mode
+    to: 'on' 
+  action:
+    - service: script.turn_on
+      entity_id: script.eagles_touchdown
+    - service: media_player.turn_on
+      entity_id: media_player.google_home
+    - service: media_player.volume_set
+      entity_id: media_player.google_home
+      data:
+        volume_level: 1
+    - service: media_player.play_media
+      entity_id: media_player.google_home
+      data:
+        media_content_id: http://www.soundboard.com/handler/DownLoadTrack.ashx?cliptitle=Fly+Eagles+Fly+-+Philadelphia+Eagles&filename=nt/NTM3NjUwMzk1NTM3NzQ3_vSbqYEWAlZc.mp3
+        media_content_type: 'audio/mp3'
+
+- id: button_eagles_touchdown_off
+  alias: Eagles Touchdown Off
+#  hide_entity: True
+  initial_state: 'on' 
+  trigger:
+    platform: state
+    entity_id: input_boolean.eagles_touchdown_mode
+    to: 'off' 
+  action:
+    - service: media_player.media_stop
+      entity_id: media_player.google_home
+    - service: script.turn_on
+      entity_id: script.eagles_normal
+
+
+
+
+
+
+- id: nest_away_on
+  alias: Nest Away On
+  initial_state: 'on'
+  trigger:
+    platform: state
+    entity_id: group.phones
+    from: 'home'
+    to: 'not_home'
+  action:
+    - service: nest.set_mode
+      data:
+        home_mode: away
+
+
+- id: nest_home_off
+  alias: Nest Home Off
+  initial_state: 'on'
+  trigger:
+    platform: state
+    entity_id: group.phones
+    from: 'not_home'
+    to: 'home'
+  action:
+    - service: nest.set_mode
+      data:
+        home_mode: home
+
+
+
+
+

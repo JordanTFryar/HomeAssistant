@@ -1,0 +1,322 @@
+galaxynote8verizon:
+  hide_if_away: false
+  icon:
+  mac: !secret nicole_mac
+  name: Nicole
+  picture:
+  track: true
+  vendor: Murata Manufacturing Co., Ltd.
+
+galaxynote5verizon:
+  hide_if_away: false
+  icon:
+  mac: !secret jordan_old_mac
+  name: Jordan Old Phone
+  picture:
+  track: true
+  vendor: Murata Manufacturing Co., Ltd.
+
+
+galaxynote9:
+  hide_if_away: false
+  icon:
+  mac: !secret jordan_mac
+  name: Jordan
+  picture:
+  track: true
+
+
+
+
+
+
+
+
+84e129e8629b59e70317f3779c454b96:
+  hide_if_away: false
+  icon:
+  mac: 08:9E:08:53:8E:A7
+  name: 84e129e8-629b-59e7-0317-f3779c454b96
+  picture:
+  track: true
+
+hue_bridge_10003:
+  hide_if_away: false
+  icon:
+  mac: 00:17:88:46:3D:8E
+  name: Hue Bridge (10.0.0.3)
+  picture:
+  track: true
+
+hp40b0348de49b:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:31:3E:D9
+  name: HP40B0348DE49B
+  picture:
+  track: true
+
+nest2345:
+  hide_if_away: false
+  icon:
+  mac: 18:B4:30:8A:23:45
+  name: Nest-2345
+  picture:
+  track: true
+
+esp_357b90:
+  hide_if_away: false
+  icon:
+  mac: 2C:3A:E8:35:7B:90
+  name: ESP 357B90
+  picture:
+  track: true
+
+iphone:
+  hide_if_away: false
+  icon:
+  mac: F4:31:C3:6E:87:7D
+  name: iPhone
+  picture:
+  track: true
+
+473e1de1370cab7f01f4f2be1411cf34:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:D8:B5:38:B2
+  name: 473e1de1-370c-ab7f-01f4-f2be1411cf34
+  picture:
+  track: true
+
+6084f8ec9e0135f69792fd705e6b9198:
+  hide_if_away: false
+  icon:
+  mac: E4:F0:42:4D:0F:65
+  name: 6084f8ec-9e01-35f6-9792-fd705e6b9198
+  picture:
+  track: true
+
+esp_8421d9:
+  hide_if_away: false
+  icon:
+  mac: 68:C6:3A:84:21:D9
+  name: ESP 8421D9
+  picture:
+  track: true
+
+63750bd866e02bb90b1e8c9a97881ed1:
+  hide_if_away: false
+  icon:
+  mac: 20:DF:B9:B0:8D:A3
+  name: 63750bd8-66e0-2bb9-0b1e-8c9a97881ed1
+  picture:
+  track: true
+
+nest31ba:
+  hide_if_away: false
+  icon:
+  mac: 18:B4:30:8A:31:BA
+  name: Nest-31BA
+  picture:
+  track: true
+
+d162277683d962f153d44667d6672c91:
+  hide_if_away: false
+  icon:
+  mac: 20:DF:B9:26:37:A3
+  name: d1622776-83d9-62f1-53d4-4667d6672c91
+  picture:
+  track: true
+
+hp40b0348de49b_2:
+  hide_if_away: false
+  icon:
+  mac: 40:B0:34:8D:E4:9B
+  name: HP40B0348DE49B
+  picture:
+  track: true
+
+tv:
+  hide_if_away: false
+  icon:
+  mac: 40:B8:9A:7C:5D:FF
+  name: TV
+  picture:
+  track: true
+
+living_room_lights:
+  hide_if_away: false
+  icon:
+  mac: 14:91:82:D7:D7:69
+  name: Living Room Lights
+  picture:
+  track: true
+
+9f0adcb12d3e006b0:
+  hide_if_away: false
+  icon:
+  mac: C0:F2:FB:34:8A:E3
+  name: 9f0adcb12d3e006b-0
+  picture:
+  track: true
+
+macbook_pro:
+  hide_if_away: false
+  icon:
+  mac: 14:10:9F:D2:5C:13
+  name: Macbook PRO
+  picture:
+  track: true
+
+fan:
+  hide_if_away: false
+  icon:
+  mac: 14:91:82:4D:73:15
+  name: Fan
+  picture:
+  track: true
+
+fryar:
+  hide_if_away: false
+  icon:
+  mac: 60:38:E0:C6:F6:40
+  name: Fryar
+  picture:
+  track: true
+
+6084f8ec9e0135f69792fd705e6b9198_2:
+  hide_if_away: false
+  icon:
+  mac: A4:C4:94:4A:F2:4A
+  name: 6084f8ec-9e01-35f6-9792-fd705e6b9198
+  picture:
+  track: false
+
+cherylsiphone:
+  hide_if_away: false
+  icon:
+  mac: A8:BE:27:BC:7B:3A
+  name: Cheryls-iPhone
+  picture:
+  track: false
+
+ps417ec4d:
+  hide_if_away: false
+  icon:
+  mac: B0:05:94:05:76:6B
+  name: PS4-17EC4D
+  picture:
+  track: false
+
+nicolewindows7:
+  hide_if_away: false
+  icon:
+  mac: 00:16:44:E5:4B:A8
+  name: NicoleWindows7
+  picture:
+  track: false
+
+galaxywatchd364:
+  hide_if_away: false
+  icon:
+  mac: D8:68:C3:11:53:65
+  name: GalaxyWatch-D364
+  picture:
+  track: false
+
+e552f617a4f60c01f4bca482c3aa3e34:
+  hide_if_away: false
+  icon:
+  mac: A4:77:33:F8:F6:7E
+  name: e552f617-a4f6-0c01-f4bc-a482c3aa3e34
+  picture:
+  track: false
+
+wemo:
+  hide_if_away: false
+  icon:
+  mac: 14:91:82:CD:7D:01
+  name: wemo
+  picture:
+  track: false
+
+wemo_switch:
+  hide_if_away: false
+  icon:
+  mac: 14:91:82:CD:7D:01
+  name: WeMo Switch
+  picture:
+  track: false
+
+jordantrsiphone:
+  hide_if_away: false
+  icon:
+  mac: 20:EE:28:6C:E6:44
+  name: JordanTrsiPhone
+  picture:
+  track: false
+
+jordantrsiphone:
+  hide_if_away: false
+  icon:
+  mac: 20:EE:28:6C:E6:44
+  name: JordanTrsiPhone
+  picture:
+  track: false
+
+android2:
+  hide_if_away: false
+  icon:
+  mac: 44:91:60:84:3D:28
+  name: Android-2
+  picture:
+  track: false
+
+android2:
+  hide_if_away: false
+  icon:
+  mac: 44:91:60:84:3D:28
+  name: Android-2
+  picture:
+  track: false
+
+galaxys9:
+  hide_if_away: false
+  icon:
+  mac: 8C:45:00:08:26:FA
+  name: Galaxy-S9
+  picture:
+  track: false
+
+android3:
+  hide_if_away: false
+  icon:
+  mac: 8C:45:00:08:26:FA
+  name: Android-3
+  picture:
+  track: false
+
+
+oneplus5t:
+  hide_if_away: false
+  icon:
+  mac: 94:65:2D:C7:17:59
+  name: OnePlus5T
+  picture:
+  track: false
+
+oneplus5t:
+  hide_if_away: false
+  icon:
+  mac: 94:65:2D:C7:17:59
+  name: OnePlus5T
+  picture:
+  track: false
+
+nesthello:
+  hide_if_away: false
+  icon:
+  mac: 64:16:66:6B:13:E6
+  name: Nest-Hello
+  picture:
+  track: false
